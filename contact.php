@@ -31,7 +31,7 @@
                             </div>
                             <div class="input-group">
                                 <label for="">Phone Number</label>
-                                <input type="number" name="phone" required placeholder="Please input your twilio number">
+                                <input type="text" name="phone" required placeholder="Please input the SMS number">
                             </div>
                         </div>
                         <div class="input-row">
