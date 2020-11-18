@@ -25,8 +25,8 @@
                                 <input type="text" name="name" required placeholder="Please input your name">
                             </div>
                             <div class="input-group">
-                                <label for="">Phone Number</label>
-                                <input type="text" name="phone" required placeholder="Please input the SMS number">
+                                <label for="">Recipient's Number</label>
+                                <input type="text" name="phone" required placeholder="Format: +254712345678">
                             </div>
                         </div>
                         <label for="">Message</label>
@@ -35,22 +35,7 @@
                     </form>
                 </div>
                 <div class="contact-right">
-                <h3>Reach Us</h3>  
-                <table>
-                    <tr>
-                        <td>Email</td>
-                        <td>smswebapp@smsweb.com <br>info@smswebapp.com</td>
-                        
-                    </tr>
-                    <tr>
-                        <td>Phone</td>
-                        <td>+2547 29079432 <br>+2547 29079432</td>       
-                    </tr>
-                    <tr>
-                        <td>Address</td>
-                        <td>212, Ground Floor, 7th Cross <br> Mbagathi Road, Nairobi <br>Kenya</td>
-                    </tr>
-                </table> 
+                    <img style="position: relative; top: 60px;" src="img\twilio.png" alt="Twilio Logo" width="600px" height="200px">
                 </div>
             </div>
        </div>

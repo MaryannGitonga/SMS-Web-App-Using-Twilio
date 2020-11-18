@@ -8,7 +8,11 @@
   <body>
     <div class="container">
       <!--Navigation Menu-->
-      <nav></nav>
+      <nav>
+        <ul>
+          <li><a href="contact.php">Go Back</a></li>
+        </ul>
+      </nav>
       <h2 class="heading">Confirmation message</h2>
       <?php
         if(isset($_GET['sent'])){

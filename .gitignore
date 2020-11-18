@@ -1,2 +1,4 @@
 /vendor
-response.php
+.env
+.env.enc
+.env.key
