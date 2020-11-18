@@ -52,12 +52,16 @@ nav ul li a.active
 .heading
 {
     margin-left: 4%;
+    color: #8dbcc9;
 }
 /*Contact Us*/
 .contact-box
 {
     background: #fff;
     display: flex;
+}
+.contact-left h3{
+    color: #bbb;
 }
 .contact-left
 {
@@ -70,7 +74,7 @@ nav ul li a.active
     padding: 40px;
     background: #8dbcc9;
     color: #fff;
-    height: 400px;
+    height: 350px;
     margin-right: 30px;
 }
 .input-row
@@ -120,7 +124,7 @@ label
 }
 .contact-left h3
 {
-    color: #8dbcc9;
+    color: #aaa;
     font-weight: 600;
     margin-bottom: 30px;
 }
@@ -137,3 +141,25 @@ tr td
 {
     padding-top: 20px;
 }
+
+.alert {
+    background-color:#8dbcc9;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }

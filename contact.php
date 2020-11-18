@@ -3,26 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SMS App Using Twilio API</title>
     <link rel="stylesheet" href="contact.css">
 </head>
 <body>
 
        <div class="container">
             <!--Navigation Menu-->
-            <nav>      
-                <ul> 
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#" class="active">Send a Message </a></li>       
-                </ul>
-            </nav>
+            <nav></nav>
 
         <!--Contact Us-->
-        <h1 class="heading">Try Sending someone a message!</h1>
+        <h1 class="heading">SMS App Using Twilio API</h1>
             <div class="border"></div> 
             <div class="contact-box">
                 <div class="contact-left">
-                    <p>We ensure your data is safe when sending texts. Try out this feature</p>
+                    <h3>Try Sending an SMS</h3>
                     <form action="send.php" method="POST">
                         <div class="input-row">
                             <div class="input-group">
@@ -30,16 +25,9 @@
                                 <input type="text" name="name" required placeholder="Please input your name">
                             </div>
                             <div class="input-group">
-                                <label for="">Phone Number</label>
-                                <input type="text" name="phone" required placeholder="Please input the SMS number">
+                                <label for="">Recipient's Number</label>
+                                <input type="text" name="phone" required placeholder="Format: +254712345678">
                             </div>
-                        </div>
-                        <div class="input-row">
-                            <div class="input-group">
-                                <label for="">Email</label>
-                                <input type="email" name="email" required placeholder="Please input your email address">
-                            </div>
-                           
                         </div>
                         <label for="">Message</label>
                         <textarea rows="5" name="body" placeholder="Your Message goes here"></textarea>
@@ -47,22 +35,7 @@
                     </form>
                 </div>
                 <div class="contact-right">
-                <h3>Reach Us</h3>  
-                <table>
-                    <tr>
-                        <td>Email</td>
-                        <td>smswebapp@smsweb.com <br>info@smswebapp.com</td>
-                        
-                    </tr>
-                    <tr>
-                        <td>Phone</td>
-                        <td>+2547 29079432 <br>+2547 29079432</td>       
-                    </tr>
-                    <tr>
-                        <td>Address</td>
-                        <td>212, Ground Floor, 7th Cross <br> Mbagathi Road, Nairobi <br>Kenya</td>
-                    </tr>
-                </table> 
+                    <img style="position: relative; top: 60px;" src="img\twilio.png" alt="Twilio Logo" width="600px" height="200px">
                 </div>
             </div>
        </div>
