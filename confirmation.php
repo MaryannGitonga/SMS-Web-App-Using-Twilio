@@ -44,6 +44,13 @@ if(isset($_GET['sent'])){
     </div>
     ');
 }
+else{
+  echo (
+    '<div class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display="none";">&times;</span> 
+    <strong>Message has not been sent! Please try again</strong>
+  </div>');
+}
 ?>
 
 </body>
