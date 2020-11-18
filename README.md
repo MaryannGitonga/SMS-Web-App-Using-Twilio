@@ -8,11 +8,16 @@ A simple SMS web app that sends a message to the specified phone number, both in
 # Prerequisites
 You need the following to successfully set up the project:
 `-Twillio Account`(You can get a free account from https://www.twilio.com/try-twilio)
-`-xampp/mampp or any other Apache distribution`
-`-PHP`
+
+`-xampp/mampp or any other Apache distribution` 
+
+`-PHP` 
+
 `-Node.js`
-`-Composer`
-`-A text editor`
+
+`-Composer` 
+
+`-A text editor` 
 
 # Setup Requirements
 To setup this project in your local machine, run the following commands:
