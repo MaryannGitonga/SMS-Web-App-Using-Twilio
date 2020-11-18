@@ -1,0 +1,6 @@
+{
+    "require": {
+        "twilio/sdk": "^6.12",
+        "johnathanmiller/secure-env-php": "^2.0"
+    }
+}
