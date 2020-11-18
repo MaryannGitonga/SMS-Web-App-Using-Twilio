@@ -37,7 +37,6 @@ if(isset($_GET['sent'])){
     
     echo ('<h2>Confirmation message</h2>
 
-    <p>Click on the "x" symbol to close the alert message.</p>
     <div class="alert">
       <span class="closebtn" onclick="this.parentElement.style.display="none";">&times;</span> 
       <strong>Message has been sent successfully!</strong>

@@ -49,15 +49,19 @@ nav ul li a.active
 {
     background: #8dbcc9;
 }
-.heading
+h1.heading
 {
     margin-left: 4%;
+    color: #8dbcc9;
 }
 /*Contact Us*/
 .contact-box
 {
     background: #fff;
     display: flex;
+}
+.contact-left h3{
+    color: #bbb;
 }
 .contact-left
 {
@@ -120,7 +124,7 @@ label
 }
 .contact-left h3
 {
-    color: #8dbcc9;
+    color: #aaa;
     font-weight: 600;
     margin-bottom: 30px;
 }

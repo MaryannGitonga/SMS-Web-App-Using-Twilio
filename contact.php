@@ -10,19 +10,14 @@
 
        <div class="container">
             <!--Navigation Menu-->
-            <nav>      
-                <ul> 
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#" class="active">Send a Message </a></li>       
-                </ul>
-            </nav>
+            <nav></nav>
 
         <!--Contact Us-->
-        <h1 class="heading">Try Sending someone a message!</h1>
+        <h1 class="heading">SMS App Using Twilio API</h1>
             <div class="border"></div> 
             <div class="contact-box">
                 <div class="contact-left">
-                    <p>We ensure your data is safe when sending texts. Try out this feature</p>
+                    <h3>Try Sending an SMS</h3>
                     <form action="send.php" method="POST">
                         <div class="input-row">
                             <div class="input-group">
@@ -33,13 +28,6 @@
                                 <label for="">Phone Number</label>
                                 <input type="text" name="phone" required placeholder="Please input the SMS number">
                             </div>
-                        </div>
-                        <div class="input-row">
-                            <div class="input-group">
-                                <label for="">Email</label>
-                                <input type="email" name="email" required placeholder="Please input your email address">
-                            </div>
-                           
                         </div>
                         <label for="">Message</label>
                         <textarea rows="5" name="body" placeholder="Your Message goes here"></textarea>
