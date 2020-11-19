@@ -17,13 +17,17 @@
         $message = $_POST['body'];
 
         $client = new Client($account_sid, $auth_token);
-        $response = $client->messages->create(
-            $phone_no,
-            array(
-                'from' => $twilio_number,
-                'body' => $message . '  From: '.$name,
-                "statusCallback" => "http://postb.in/1234abcd"
-            )
-        );
-        header("Location:confirmation.php?sent=true");
+        try{
+            $response = $client->messages->create(
+                $phone_no,
+                array(
+                    'from' => $twilio_number,
+                    'body' => $message . '  From: '.$name,
+                    "statusCallback" => "http://postb.in/1234abcd"
+                )
+            );
+            header("Location:confirmation.php?sent=true");
+        }catch(Exception $e){
+            header("Location:confirmation.php");
+        }
     }
