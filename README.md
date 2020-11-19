@@ -50,5 +50,4 @@ In your prefered code editor:
 To run this project:
 * Start you xampp(or your preferred Apache distribution) and turn on your Apache and MySQL modules.
 * Access the application on the browser using this localhost address `http://localhost/SMS-Web-App-Using-Twilio/contact.php`
-
-Now you can have fun sending messages to your preferred phone numbers!
+**Take note: If you are working with a free account, SMS delivery is only successful when you key in your personal number as the recipient's number (ie.the one you used to verify your Twilio account).
