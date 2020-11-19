@@ -2,3 +2,5 @@
 .env
 .env.enc
 .env.key
+composer.json
+composer.lock
