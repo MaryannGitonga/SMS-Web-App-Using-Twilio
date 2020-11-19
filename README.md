@@ -20,7 +20,8 @@ You need the following to successfully set up the project:
 `-A text editor` 
 
 # Setup Requirements
-To setup this project in your local machine, run the following commands:
+To setup this project on your local machine, run the following commands:
+
 **Ensure you are located in htdocs or www directory/folder**
 * `git clone https://github.com/MaryannGitonga/SMS-Web-App-Using-Twilio.git`
 * `cd SMS-Web-App-Using-Twilio`
